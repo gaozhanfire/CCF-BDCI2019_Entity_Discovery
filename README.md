@@ -1,6 +1,6 @@
 # CCF-BDCI2019_Entity_Discovery
 CCF-BDCI大数据与计算智能大赛-互联网金融新实体发现-9/2581
-![guize](https://github.com/gaozhanfire/CCF-BDCI2019_Entity_Discovery/raw/master/beijing.png)   
+![beijing](https://github.com/gaozhanfire/CCF-BDCI2019_Entity_Discovery/raw/master/beijing.png)   
 赛题链接：https://www.datafountain.cn/competitions/361
 
 ---
