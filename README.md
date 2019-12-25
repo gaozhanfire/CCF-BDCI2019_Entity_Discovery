@@ -90,6 +90,7 @@ CCF-BDCI大数据与计算智能大赛-互联网金融新实体发现-9th
 ***非常遗憾的就是初赛由于我没有特别关注lgb的正负样本比例，导致lgb效果很差，我以为按关键词提取来做lgb是不适用与本赛题的，初赛就没有太多使用lgb。***  
 ***遗憾的还有没有尽早使用ctr特征***
 ## 初赛方案（规则）：
-
+这个主要是队友做的，初赛提升非常大，但是B榜严重过拟合：
+![add image](https://github.com/gaozhanfire/CCF-BDCI2019_Entity_Discovery/raw/master/guize.png)
   
   
