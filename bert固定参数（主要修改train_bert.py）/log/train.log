@@ -1,0 +1,592 @@
+2019-12-06 22:11:26,213 - log/train.log - INFO - num_tags       :	6
+2019-12-06 22:11:26,213 - log/train.log - INFO - lstm_dim       :	64
+2019-12-06 22:11:26,213 - log/train.log - INFO - batch_size     :	2
+2019-12-06 22:11:26,214 - log/train.log - INFO - max_seq_len    :	128
+2019-12-06 22:11:26,214 - log/train.log - INFO - clip           :	0.0
+2019-12-06 22:11:26,214 - log/train.log - INFO - dropout_keep   :	0.5
+2019-12-06 22:11:26,214 - log/train.log - INFO - optimizer      :	adam
+2019-12-06 22:11:26,214 - log/train.log - INFO - lr             :	0.001
+2019-12-06 22:11:26,214 - log/train.log - INFO - tag_schema     :	iobes
+2019-12-06 22:11:26,214 - log/train.log - INFO - zeros          :	False
+2019-12-06 22:11:26,214 - log/train.log - INFO - lower          :	True
+2019-12-06 22:11:31,834 - log/train.log - INFO - Created model with fresh parameters.
+2019-12-06 22:11:33,104 - log/train.log - INFO - start training
+2019-12-06 22:11:47,939 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:11:53,792 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 742 phrases; correct: 113.
+
+2019-12-06 22:11:53,793 - log/train.log - INFO - accuracy:  75.85%; precision:  15.23%; recall:  29.82%; FB1:  20.16
+
+2019-12-06 22:11:53,793 - log/train.log - INFO -                  : precision:  15.23%; recall:  29.82%; FB1:  20.16  742
+
+2019-12-06 22:11:54,148 - log/train.log - INFO - new best dev f1 score:20.160
+2019-12-06 22:12:03,590 - log/train.log - INFO - iteration:2 step:42/58, NER loss:44.319942
+2019-12-06 22:12:07,629 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:12:12,504 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 707 phrases; correct: 199.
+
+2019-12-06 22:12:12,505 - log/train.log - INFO - accuracy:  84.32%; precision:  28.15%; recall:  52.51%; FB1:  36.65
+
+2019-12-06 22:12:12,505 - log/train.log - INFO -                  : precision:  28.15%; recall:  52.51%; FB1:  36.65  707
+
+2019-12-06 22:12:12,779 - log/train.log - INFO - new best dev f1 score:36.650
+2019-12-06 22:12:26,109 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:12:30,919 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 514 phrases; correct: 230.
+
+2019-12-06 22:12:30,920 - log/train.log - INFO - accuracy:  89.64%; precision:  44.75%; recall:  60.69%; FB1:  51.51
+
+2019-12-06 22:12:30,920 - log/train.log - INFO -                  : precision:  44.75%; recall:  60.69%; FB1:  51.51  514
+
+2019-12-06 22:12:31,218 - log/train.log - INFO - new best dev f1 score:51.510
+2019-12-06 22:12:36,747 - log/train.log - INFO - iteration:4 step:26/58, NER loss:23.816914
+2019-12-06 22:12:44,421 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:12:49,307 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 379 phrases; correct: 195.
+
+2019-12-06 22:12:49,307 - log/train.log - INFO - accuracy:  89.46%; precision:  51.45%; recall:  51.45%; FB1:  51.45
+
+2019-12-06 22:12:49,308 - log/train.log - INFO -                  : precision:  51.45%; recall:  51.45%; FB1:  51.45  379
+
+2019-12-06 22:13:02,588 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:13:07,519 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 502 phrases; correct: 295.
+
+2019-12-06 22:13:07,519 - log/train.log - INFO - accuracy:  92.98%; precision:  58.76%; recall:  77.84%; FB1:  66.97
+
+2019-12-06 22:13:07,519 - log/train.log - INFO -                  : precision:  58.76%; recall:  77.84%; FB1:  66.97  502
+
+2019-12-06 22:13:07,796 - log/train.log - INFO - new best dev f1 score:66.970
+2019-12-06 22:13:09,978 - log/train.log - INFO - iteration:6 step:10/58, NER loss:16.454037
+2019-12-06 22:13:20,922 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:13:25,779 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 450 phrases; correct: 280.
+
+2019-12-06 22:13:25,779 - log/train.log - INFO - accuracy:  93.93%; precision:  62.22%; recall:  73.88%; FB1:  67.55
+
+2019-12-06 22:13:25,779 - log/train.log - INFO -                  : precision:  62.22%; recall:  73.88%; FB1:  67.55  450
+
+2019-12-06 22:13:26,040 - log/train.log - INFO - new best dev f1 score:67.550
+2019-12-06 22:13:37,930 - log/train.log - INFO - iteration:7 step:52/58, NER loss:12.875615
+2019-12-06 22:13:39,139 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:13:43,771 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 431 phrases; correct: 312.
+
+2019-12-06 22:13:43,771 - log/train.log - INFO - accuracy:  95.88%; precision:  72.39%; recall:  82.32%; FB1:  77.04
+
+2019-12-06 22:13:43,771 - log/train.log - INFO -                  : precision:  72.39%; recall:  82.32%; FB1:  77.04  431
+
+2019-12-06 22:13:44,032 - log/train.log - INFO - new best dev f1 score:77.040
+2019-12-06 22:13:57,029 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:14:01,949 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 435 phrases; correct: 330.
+
+2019-12-06 22:14:01,949 - log/train.log - INFO - accuracy:  96.01%; precision:  75.86%; recall:  87.07%; FB1:  81.08
+
+2019-12-06 22:14:01,949 - log/train.log - INFO -                  : precision:  75.86%; recall:  87.07%; FB1:  81.08  435
+
+2019-12-06 22:14:02,224 - log/train.log - INFO - new best dev f1 score:81.080
+2019-12-06 22:14:10,693 - log/train.log - INFO - iteration:9 step:36/58, NER loss: 9.122312
+2019-12-06 22:14:15,339 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:14:20,233 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 399 phrases; correct: 305.
+
+2019-12-06 22:14:20,233 - log/train.log - INFO - accuracy:  96.38%; precision:  76.44%; recall:  80.47%; FB1:  78.41
+
+2019-12-06 22:14:20,233 - log/train.log - INFO -                  : precision:  76.44%; recall:  80.47%; FB1:  78.41  399
+
+2019-12-06 22:14:21,503 - log/train.log - INFO - model saved
+2019-12-06 22:14:21,503 - log/train.log - INFO - evaluate:test
+2019-12-06 22:15:46,350 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7818 phrases; correct: 0.
+
+2019-12-06 22:15:46,350 - log/train.log - INFO - accuracy:  73.30%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:15:46,350 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7818
+
+2019-12-06 22:16:00,214 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:16:04,899 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 400 phrases; correct: 330.
+
+2019-12-06 22:16:04,899 - log/train.log - INFO - accuracy:  97.38%; precision:  82.50%; recall:  87.07%; FB1:  84.72
+
+2019-12-06 22:16:04,899 - log/train.log - INFO -                  : precision:  82.50%; recall:  87.07%; FB1:  84.72  400
+
+2019-12-06 22:16:05,172 - log/train.log - INFO - new best dev f1 score:84.720
+2019-12-06 22:16:06,237 - log/train.log - INFO - model saved
+2019-12-06 22:16:06,238 - log/train.log - INFO - evaluate:test
+2019-12-06 22:17:33,110 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7889 phrases; correct: 0.
+
+2019-12-06 22:17:33,111 - log/train.log - INFO - accuracy:  73.09%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:17:33,112 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7889
+
+2019-12-06 22:17:37,303 - log/train.log - INFO - iteration:11 step:20/58, NER loss: 8.062100
+2019-12-06 22:17:46,292 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:17:51,096 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 407 phrases; correct: 335.
+
+2019-12-06 22:17:51,097 - log/train.log - INFO - accuracy:  97.77%; precision:  82.31%; recall:  88.39%; FB1:  85.24
+
+2019-12-06 22:17:51,097 - log/train.log - INFO -                  : precision:  82.31%; recall:  88.39%; FB1:  85.24  407
+
+2019-12-06 22:17:51,371 - log/train.log - INFO - new best dev f1 score:85.240
+2019-12-06 22:17:52,275 - log/train.log - INFO - model saved
+2019-12-06 22:17:52,275 - log/train.log - INFO - evaluate:test
+2019-12-06 22:19:17,503 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8134 phrases; correct: 0.
+
+2019-12-06 22:19:17,503 - log/train.log - INFO - accuracy:  71.92%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:19:17,504 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8134
+
+2019-12-06 22:19:30,695 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:19:35,540 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 404 phrases; correct: 345.
+
+2019-12-06 22:19:35,540 - log/train.log - INFO - accuracy:  97.74%; precision:  85.40%; recall:  91.03%; FB1:  88.12
+
+2019-12-06 22:19:35,540 - log/train.log - INFO -                  : precision:  85.40%; recall:  91.03%; FB1:  88.12  404
+
+2019-12-06 22:19:35,836 - log/train.log - INFO - new best dev f1 score:88.120
+2019-12-06 22:19:36,808 - log/train.log - INFO - model saved
+2019-12-06 22:19:36,809 - log/train.log - INFO - evaluate:test
+2019-12-06 22:21:03,329 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8495 phrases; correct: 0.
+
+2019-12-06 22:21:03,330 - log/train.log - INFO - accuracy:  70.35%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:21:03,330 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8495
+
+2019-12-06 22:21:04,137 - log/train.log - INFO - iteration:13 step:4/58, NER loss: 6.972936
+2019-12-06 22:21:16,286 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:21:21,088 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 410 phrases; correct: 354.
+
+2019-12-06 22:21:21,088 - log/train.log - INFO - accuracy:  98.08%; precision:  86.34%; recall:  93.40%; FB1:  89.73
+
+2019-12-06 22:21:21,088 - log/train.log - INFO -                  : precision:  86.34%; recall:  93.40%; FB1:  89.73  410
+
+2019-12-06 22:21:21,357 - log/train.log - INFO - new best dev f1 score:89.730
+2019-12-06 22:21:22,239 - log/train.log - INFO - model saved
+2019-12-06 22:21:22,239 - log/train.log - INFO - evaluate:test
+2019-12-06 22:22:47,535 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8764 phrases; correct: 0.
+
+2019-12-06 22:22:47,536 - log/train.log - INFO - accuracy:  67.33%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:22:47,536 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8764
+
+2019-12-06 22:22:57,973 - log/train.log - INFO - iteration:14 step:46/58, NER loss: 5.902475
+2019-12-06 22:23:00,658 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:23:05,177 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 408 phrases; correct: 358.
+
+2019-12-06 22:23:05,178 - log/train.log - INFO - accuracy:  98.57%; precision:  87.75%; recall:  94.46%; FB1:  90.98
+
+2019-12-06 22:23:05,178 - log/train.log - INFO -                  : precision:  87.75%; recall:  94.46%; FB1:  90.98  408
+
+2019-12-06 22:23:05,475 - log/train.log - INFO - new best dev f1 score:90.980
+2019-12-06 22:23:06,433 - log/train.log - INFO - model saved
+2019-12-06 22:23:06,434 - log/train.log - INFO - evaluate:test
+2019-12-06 22:24:30,234 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8975 phrases; correct: 0.
+
+2019-12-06 22:24:30,234 - log/train.log - INFO - accuracy:  68.79%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:24:30,234 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8975
+
+2019-12-06 22:24:43,297 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:24:48,058 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 412 phrases; correct: 362.
+
+2019-12-06 22:24:48,058 - log/train.log - INFO - accuracy:  98.27%; precision:  87.86%; recall:  95.51%; FB1:  91.53
+
+2019-12-06 22:24:48,058 - log/train.log - INFO -                  : precision:  87.86%; recall:  95.51%; FB1:  91.53  412
+
+2019-12-06 22:24:48,352 - log/train.log - INFO - new best dev f1 score:91.530
+2019-12-06 22:24:49,224 - log/train.log - INFO - model saved
+2019-12-06 22:24:49,225 - log/train.log - INFO - evaluate:test
+2019-12-06 22:26:13,084 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8887 phrases; correct: 0.
+
+2019-12-06 22:26:13,084 - log/train.log - INFO - accuracy:  66.41%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:26:13,084 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8887
+
+2019-12-06 22:26:19,730 - log/train.log - INFO - iteration:16 step:30/58, NER loss: 5.105378
+2019-12-06 22:26:25,659 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:26:30,146 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 387 phrases; correct: 357.
+
+2019-12-06 22:26:30,146 - log/train.log - INFO - accuracy:  98.96%; precision:  92.25%; recall:  94.20%; FB1:  93.21
+
+2019-12-06 22:26:30,146 - log/train.log - INFO -                  : precision:  92.25%; recall:  94.20%; FB1:  93.21  387
+
+2019-12-06 22:26:30,422 - log/train.log - INFO - new best dev f1 score:93.210
+2019-12-06 22:26:31,380 - log/train.log - INFO - model saved
+2019-12-06 22:26:31,381 - log/train.log - INFO - evaluate:test
+2019-12-06 22:27:58,707 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7591 phrases; correct: 0.
+
+2019-12-06 22:27:58,708 - log/train.log - INFO - accuracy:  73.85%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:27:58,708 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7591
+
+2019-12-06 22:28:11,926 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:28:16,860 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 402 phrases; correct: 362.
+
+2019-12-06 22:28:16,860 - log/train.log - INFO - accuracy:  98.96%; precision:  90.05%; recall:  95.51%; FB1:  92.70
+
+2019-12-06 22:28:16,860 - log/train.log - INFO -                  : precision:  90.05%; recall:  95.51%; FB1:  92.70  402
+
+2019-12-06 22:28:17,867 - log/train.log - INFO - model saved
+2019-12-06 22:28:17,868 - log/train.log - INFO - evaluate:test
+2019-12-06 22:29:43,462 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8642 phrases; correct: 0.
+
+2019-12-06 22:29:43,462 - log/train.log - INFO - accuracy:  69.31%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:29:43,463 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8642
+
+2019-12-06 22:29:46,858 - log/train.log - INFO - iteration:18 step:14/58, NER loss: 4.568038
+2019-12-06 22:29:56,651 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:30:01,459 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 389 phrases; correct: 366.
+
+2019-12-06 22:30:01,459 - log/train.log - INFO - accuracy:  99.09%; precision:  94.09%; recall:  96.57%; FB1:  95.31
+
+2019-12-06 22:30:01,459 - log/train.log - INFO -                  : precision:  94.09%; recall:  96.57%; FB1:  95.31  389
+
+2019-12-06 22:30:01,759 - log/train.log - INFO - new best dev f1 score:95.310
+2019-12-06 22:30:02,702 - log/train.log - INFO - model saved
+2019-12-06 22:30:02,703 - log/train.log - INFO - evaluate:test
+2019-12-06 22:31:26,981 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7721 phrases; correct: 0.
+
+2019-12-06 22:31:26,981 - log/train.log - INFO - accuracy:  71.52%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:31:26,981 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7721
+
+2019-12-06 22:31:39,084 - log/train.log - INFO - iteration:19 step:56/58, NER loss: 3.849164
+2019-12-06 22:31:39,482 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:31:44,055 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 402 phrases; correct: 365.
+
+2019-12-06 22:31:44,056 - log/train.log - INFO - accuracy:  98.52%; precision:  90.80%; recall:  96.31%; FB1:  93.47
+
+2019-12-06 22:31:44,056 - log/train.log - INFO -                  : precision:  90.80%; recall:  96.31%; FB1:  93.47  402
+
+2019-12-06 22:31:45,010 - log/train.log - INFO - model saved
+2019-12-06 22:31:45,010 - log/train.log - INFO - evaluate:test
+2019-12-06 22:33:09,041 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8337 phrases; correct: 0.
+
+2019-12-06 22:33:09,042 - log/train.log - INFO - accuracy:  68.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:33:09,042 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8337
+
+2019-12-06 22:33:22,033 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:33:26,932 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 409 phrases; correct: 365.
+
+2019-12-06 22:33:26,932 - log/train.log - INFO - accuracy:  98.55%; precision:  89.24%; recall:  96.31%; FB1:  92.64
+
+2019-12-06 22:33:26,932 - log/train.log - INFO -                  : precision:  89.24%; recall:  96.31%; FB1:  92.64  409
+
+2019-12-06 22:33:27,900 - log/train.log - INFO - model saved
+2019-12-06 22:33:27,901 - log/train.log - INFO - evaluate:test
+2019-12-06 22:34:53,355 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 9129 phrases; correct: 0.
+
+2019-12-06 22:34:53,355 - log/train.log - INFO - accuracy:  65.57%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:34:53,355 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  9129
+
+2019-12-06 22:35:02,327 - log/train.log - INFO - iteration:21 step:40/58, NER loss: 3.936839
+2019-12-06 22:35:06,243 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:35:11,186 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 391 phrases; correct: 368.
+
+2019-12-06 22:35:11,187 - log/train.log - INFO - accuracy:  99.43%; precision:  94.12%; recall:  97.10%; FB1:  95.58
+
+2019-12-06 22:35:11,187 - log/train.log - INFO -                  : precision:  94.12%; recall:  97.10%; FB1:  95.58  391
+
+2019-12-06 22:35:11,493 - log/train.log - INFO - new best dev f1 score:95.580
+2019-12-06 22:35:12,445 - log/train.log - INFO - model saved
+2019-12-06 22:35:12,446 - log/train.log - INFO - evaluate:test
+2019-12-06 22:36:37,737 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8130 phrases; correct: 0.
+
+2019-12-06 22:36:37,737 - log/train.log - INFO - accuracy:  69.60%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:36:37,737 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8130
+
+2019-12-06 22:36:50,716 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:36:55,618 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 386 phrases; correct: 372.
+
+2019-12-06 22:36:55,618 - log/train.log - INFO - accuracy:  99.61%; precision:  96.37%; recall:  98.15%; FB1:  97.25
+
+2019-12-06 22:36:55,618 - log/train.log - INFO -                  : precision:  96.37%; recall:  98.15%; FB1:  97.25  386
+
+2019-12-06 22:36:55,913 - log/train.log - INFO - new best dev f1 score:97.250
+2019-12-06 22:36:56,854 - log/train.log - INFO - model saved
+2019-12-06 22:36:56,855 - log/train.log - INFO - evaluate:test
+2019-12-06 22:38:22,715 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8212 phrases; correct: 0.
+
+2019-12-06 22:38:22,716 - log/train.log - INFO - accuracy:  69.65%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:38:22,716 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8212
+
+2019-12-06 22:38:28,043 - log/train.log - INFO - iteration:23 step:24/58, NER loss: 3.229067
+2019-12-06 22:38:35,688 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:38:40,298 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 399 phrases; correct: 372.
+
+2019-12-06 22:38:40,298 - log/train.log - INFO - accuracy:  99.02%; precision:  93.23%; recall:  98.15%; FB1:  95.63
+
+2019-12-06 22:38:40,298 - log/train.log - INFO -                  : precision:  93.23%; recall:  98.15%; FB1:  95.63  399
+
+2019-12-06 22:38:41,279 - log/train.log - INFO - model saved
+2019-12-06 22:38:41,280 - log/train.log - INFO - evaluate:test
+2019-12-06 22:40:04,694 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8849 phrases; correct: 0.
+
+2019-12-06 22:40:04,694 - log/train.log - INFO - accuracy:  65.30%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:40:04,694 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8849
+
+2019-12-06 22:40:17,826 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:40:22,728 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 393 phrases; correct: 372.
+
+2019-12-06 22:40:22,728 - log/train.log - INFO - accuracy:  99.33%; precision:  94.66%; recall:  98.15%; FB1:  96.37
+
+2019-12-06 22:40:22,728 - log/train.log - INFO -                  : precision:  94.66%; recall:  98.15%; FB1:  96.37  393
+
+2019-12-06 22:40:23,729 - log/train.log - INFO - model saved
+2019-12-06 22:40:23,730 - log/train.log - INFO - evaluate:test
+2019-12-06 22:41:47,368 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8761 phrases; correct: 0.
+
+2019-12-06 22:41:47,368 - log/train.log - INFO - accuracy:  66.63%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:41:47,368 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8761
+
+2019-12-06 22:41:48,918 - log/train.log - INFO - iteration:25 step:8/58, NER loss: 2.925703
+2019-12-06 22:42:00,425 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:42:05,247 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 395 phrases; correct: 371.
+
+2019-12-06 22:42:05,247 - log/train.log - INFO - accuracy:  99.38%; precision:  93.92%; recall:  97.89%; FB1:  95.87
+
+2019-12-06 22:42:05,247 - log/train.log - INFO -                  : precision:  93.92%; recall:  97.89%; FB1:  95.87  395
+
+2019-12-06 22:42:06,234 - log/train.log - INFO - model saved
+2019-12-06 22:42:06,235 - log/train.log - INFO - evaluate:test
+2019-12-06 22:43:30,750 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7959 phrases; correct: 0.
+
+2019-12-06 22:43:30,750 - log/train.log - INFO - accuracy:  69.76%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:43:30,750 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7959
+
+2019-12-06 22:43:42,015 - log/train.log - INFO - iteration:26 step:50/58, NER loss: 2.345330
+2019-12-06 22:43:43,644 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:43:48,276 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 389 phrases; correct: 373.
+
+2019-12-06 22:43:48,276 - log/train.log - INFO - accuracy:  99.63%; precision:  95.89%; recall:  98.42%; FB1:  97.14
+
+2019-12-06 22:43:48,276 - log/train.log - INFO -                  : precision:  95.89%; recall:  98.42%; FB1:  97.14  389
+
+2019-12-06 22:43:49,211 - log/train.log - INFO - model saved
+2019-12-06 22:43:49,212 - log/train.log - INFO - evaluate:test
+2019-12-06 22:45:14,667 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7914 phrases; correct: 0.
+
+2019-12-06 22:45:14,667 - log/train.log - INFO - accuracy:  70.68%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:45:14,667 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7914
+
+2019-12-06 22:45:27,336 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:45:31,968 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 396 phrases; correct: 370.
+
+2019-12-06 22:45:31,968 - log/train.log - INFO - accuracy:  99.66%; precision:  93.43%; recall:  97.63%; FB1:  95.48
+
+2019-12-06 22:45:31,968 - log/train.log - INFO -                  : precision:  93.43%; recall:  97.63%; FB1:  95.48  396
+
+2019-12-06 22:45:32,967 - log/train.log - INFO - model saved
+2019-12-06 22:45:32,968 - log/train.log - INFO - evaluate:test
+2019-12-06 22:46:58,010 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8720 phrases; correct: 0.
+
+2019-12-06 22:46:58,011 - log/train.log - INFO - accuracy:  70.00%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:46:58,011 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8720
+
+2019-12-06 22:47:05,758 - log/train.log - INFO - iteration:28 step:34/58, NER loss: 2.655292
+2019-12-06 22:47:11,223 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:47:15,779 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 394 phrases; correct: 370.
+
+2019-12-06 22:47:15,780 - log/train.log - INFO - accuracy:  99.02%; precision:  93.91%; recall:  97.63%; FB1:  95.73
+
+2019-12-06 22:47:15,780 - log/train.log - INFO -                  : precision:  93.91%; recall:  97.63%; FB1:  95.73  394
+
+2019-12-06 22:47:16,774 - log/train.log - INFO - model saved
+2019-12-06 22:47:16,775 - log/train.log - INFO - evaluate:test
+2019-12-06 22:48:42,594 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8954 phrases; correct: 0.
+
+2019-12-06 22:48:42,595 - log/train.log - INFO - accuracy:  64.72%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:48:42,595 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8954
+
+2019-12-06 22:48:55,574 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:49:00,236 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 389 phrases; correct: 378.
+
+2019-12-06 22:49:00,236 - log/train.log - INFO - accuracy:  99.61%; precision:  97.17%; recall:  99.74%; FB1:  98.44
+
+2019-12-06 22:49:00,236 - log/train.log - INFO -                  : precision:  97.17%; recall:  99.74%; FB1:  98.44  389
+
+2019-12-06 22:49:00,520 - log/train.log - INFO - new best dev f1 score:98.440
+2019-12-06 22:49:01,425 - log/train.log - INFO - model saved
+2019-12-06 22:49:01,426 - log/train.log - INFO - evaluate:test
+2019-12-06 22:50:25,835 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8312 phrases; correct: 0.
+
+2019-12-06 22:50:25,836 - log/train.log - INFO - accuracy:  68.60%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:50:25,836 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8312
+
+2019-12-06 22:50:29,898 - log/train.log - INFO - iteration:30 step:18/58, NER loss: 2.325054
+2019-12-06 22:50:38,938 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:50:43,859 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 393 phrases; correct: 372.
+
+2019-12-06 22:50:43,859 - log/train.log - INFO - accuracy:  99.32%; precision:  94.66%; recall:  98.15%; FB1:  96.37
+
+2019-12-06 22:50:43,859 - log/train.log - INFO -                  : precision:  94.66%; recall:  98.15%; FB1:  96.37  393
+
+2019-12-06 22:50:44,817 - log/train.log - INFO - model saved
+2019-12-06 22:50:44,818 - log/train.log - INFO - evaluate:test
+2019-12-06 22:52:10,366 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8770 phrases; correct: 0.
+
+2019-12-06 22:52:10,366 - log/train.log - INFO - accuracy:  66.68%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:52:10,366 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8770
+
+2019-12-06 22:52:23,483 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:52:28,278 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 384 phrases; correct: 378.
+
+2019-12-06 22:52:28,278 - log/train.log - INFO - accuracy:  99.87%; precision:  98.44%; recall:  99.74%; FB1:  99.08
+
+2019-12-06 22:52:28,278 - log/train.log - INFO -                  : precision:  98.44%; recall:  99.74%; FB1:  99.08  384
+
+2019-12-06 22:52:28,575 - log/train.log - INFO - new best dev f1 score:99.080
+2019-12-06 22:52:29,571 - log/train.log - INFO - model saved
+2019-12-06 22:52:29,572 - log/train.log - INFO - evaluate:test
+2019-12-06 22:53:54,211 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7953 phrases; correct: 0.
+
+2019-12-06 22:53:54,212 - log/train.log - INFO - accuracy:  69.72%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:53:54,212 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7953
+
+2019-12-06 22:53:54,559 - log/train.log - INFO - iteration:32 step:2/58, NER loss: 1.887118
+2019-12-06 22:54:07,275 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:54:12,071 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 393 phrases; correct: 375.
+
+2019-12-06 22:54:12,071 - log/train.log - INFO - accuracy:  99.46%; precision:  95.42%; recall:  98.94%; FB1:  97.15
+
+2019-12-06 22:54:12,072 - log/train.log - INFO -                  : precision:  95.42%; recall:  98.94%; FB1:  97.15  393
+
+2019-12-06 22:54:13,090 - log/train.log - INFO - model saved
+2019-12-06 22:54:13,091 - log/train.log - INFO - evaluate:test
+2019-12-06 22:55:39,437 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8396 phrases; correct: 0.
+
+2019-12-06 22:55:39,437 - log/train.log - INFO - accuracy:  67.34%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:55:39,437 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8396
+
+2019-12-06 22:55:49,487 - log/train.log - INFO - iteration:33 step:44/58, NER loss: 1.945105
+2019-12-06 22:55:52,543 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:55:57,348 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 382 phrases; correct: 376.
+
+2019-12-06 22:55:57,349 - log/train.log - INFO - accuracy:  99.80%; precision:  98.43%; recall:  99.21%; FB1:  98.82
+
+2019-12-06 22:55:57,349 - log/train.log - INFO -                  : precision:  98.43%; recall:  99.21%; FB1:  98.82  382
+
+2019-12-06 22:55:58,485 - log/train.log - INFO - model saved
+2019-12-06 22:55:58,486 - log/train.log - INFO - evaluate:test
+2019-12-06 22:57:21,839 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7724 phrases; correct: 0.
+
+2019-12-06 22:57:21,839 - log/train.log - INFO - accuracy:  70.85%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:57:21,839 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7724
+
+2019-12-06 22:57:34,958 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:57:39,916 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 378 phrases; correct: 373.
+
+2019-12-06 22:57:39,916 - log/train.log - INFO - accuracy:  99.76%; precision:  98.68%; recall:  98.42%; FB1:  98.55
+
+2019-12-06 22:57:39,916 - log/train.log - INFO -                  : precision:  98.68%; recall:  98.42%; FB1:  98.55  378
+
+2019-12-06 22:57:40,899 - log/train.log - INFO - model saved
+2019-12-06 22:57:40,900 - log/train.log - INFO - evaluate:test
+2019-12-06 22:59:05,779 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7556 phrases; correct: 0.
+
+2019-12-06 22:59:05,779 - log/train.log - INFO - accuracy:  71.57%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 22:59:05,779 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7556
+
+2019-12-06 22:59:11,810 - log/train.log - INFO - iteration:35 step:28/58, NER loss: 1.838013
+2019-12-06 22:59:18,898 - log/train.log - INFO - evaluate:dev
+2019-12-06 22:59:23,799 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 382 phrases; correct: 372.
+
+2019-12-06 22:59:23,799 - log/train.log - INFO - accuracy:  99.66%; precision:  97.38%; recall:  98.15%; FB1:  97.77
+
+2019-12-06 22:59:23,799 - log/train.log - INFO -                  : precision:  97.38%; recall:  98.15%; FB1:  97.77  382
+
+2019-12-06 22:59:24,801 - log/train.log - INFO - model saved
+2019-12-06 22:59:24,802 - log/train.log - INFO - evaluate:test
+2019-12-06 23:00:48,795 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7950 phrases; correct: 0.
+
+2019-12-06 23:00:48,796 - log/train.log - INFO - accuracy:  69.40%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:00:48,796 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7950
+
+2019-12-06 23:01:01,943 - log/train.log - INFO - evaluate:dev
+2019-12-06 23:01:06,891 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 382 phrases; correct: 369.
+
+2019-12-06 23:01:06,891 - log/train.log - INFO - accuracy:  99.36%; precision:  96.60%; recall:  97.36%; FB1:  96.98
+
+2019-12-06 23:01:06,891 - log/train.log - INFO -                  : precision:  96.60%; recall:  97.36%; FB1:  96.98  382
+
+2019-12-06 23:01:07,858 - log/train.log - INFO - model saved
+2019-12-06 23:01:07,858 - log/train.log - INFO - evaluate:test
+2019-12-06 23:02:32,493 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7878 phrases; correct: 0.
+
+2019-12-06 23:02:32,494 - log/train.log - INFO - accuracy:  69.38%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:02:32,494 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7878
+
+2019-12-06 23:02:35,007 - log/train.log - INFO - iteration:37 step:12/58, NER loss: 1.984932
+2019-12-06 23:02:45,494 - log/train.log - INFO - evaluate:dev
+2019-12-06 23:02:50,361 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 383 phrases; correct: 373.
+
+2019-12-06 23:02:50,361 - log/train.log - INFO - accuracy:  99.69%; precision:  97.39%; recall:  98.42%; FB1:  97.90
+
+2019-12-06 23:02:50,361 - log/train.log - INFO -                  : precision:  97.39%; recall:  98.42%; FB1:  97.90  383
+
+2019-12-06 23:02:51,340 - log/train.log - INFO - model saved
+2019-12-06 23:02:51,341 - log/train.log - INFO - evaluate:test
+2019-12-06 23:04:15,212 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 7625 phrases; correct: 0.
+
+2019-12-06 23:04:15,212 - log/train.log - INFO - accuracy:  70.37%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:04:15,212 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  7625
+
+2019-12-06 23:04:27,391 - log/train.log - INFO - iteration:38 step:54/58, NER loss: 2.086841
+2019-12-06 23:04:28,290 - log/train.log - INFO - evaluate:dev
+2019-12-06 23:04:33,126 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 383 phrases; correct: 375.
+
+2019-12-06 23:04:33,126 - log/train.log - INFO - accuracy:  99.69%; precision:  97.91%; recall:  98.94%; FB1:  98.43
+
+2019-12-06 23:04:33,126 - log/train.log - INFO -                  : precision:  97.91%; recall:  98.94%; FB1:  98.43  383
+
+2019-12-06 23:04:34,163 - log/train.log - INFO - model saved
+2019-12-06 23:04:34,164 - log/train.log - INFO - evaluate:test
+2019-12-06 23:05:59,330 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8160 phrases; correct: 0.
+
+2019-12-06 23:05:59,330 - log/train.log - INFO - accuracy:  67.70%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:05:59,330 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8160
+
+2019-12-06 23:06:12,170 - log/train.log - INFO - evaluate:dev
+2019-12-06 23:06:16,907 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 382 phrases; correct: 373.
+
+2019-12-06 23:06:16,907 - log/train.log - INFO - accuracy:  99.74%; precision:  97.64%; recall:  98.42%; FB1:  98.03
+
+2019-12-06 23:06:16,907 - log/train.log - INFO -                  : precision:  97.64%; recall:  98.42%; FB1:  98.03  382
+
+2019-12-06 23:06:17,875 - log/train.log - INFO - model saved
+2019-12-06 23:06:17,875 - log/train.log - INFO - evaluate:test
+2019-12-06 23:07:42,419 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8015 phrases; correct: 0.
+
+2019-12-06 23:07:42,419 - log/train.log - INFO - accuracy:  68.85%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:07:42,419 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8015
+
+2019-12-06 23:07:51,415 - log/train.log - INFO - iteration:40 step:38/58, NER loss: 1.789094
+2019-12-06 23:07:55,591 - log/train.log - INFO - evaluate:dev
+2019-12-06 23:08:00,593 - log/train.log - INFO - processed 6140 tokens with 379 phrases; found: 380 phrases; correct: 379.
+
+2019-12-06 23:08:00,593 - log/train.log - INFO - accuracy:  99.95%; precision:  99.74%; recall: 100.00%; FB1:  99.87
+
+2019-12-06 23:08:00,593 - log/train.log - INFO -                  : precision:  99.74%; recall: 100.00%; FB1:  99.87  380
+
+2019-12-06 23:08:00,873 - log/train.log - INFO - new best dev f1 score:99.870
+2019-12-06 23:08:01,796 - log/train.log - INFO - model saved
+2019-12-06 23:08:01,797 - log/train.log - INFO - evaluate:test
+2019-12-06 23:09:24,919 - log/train.log - INFO - processed 114620 tokens with 0 phrases; found: 8176 phrases; correct: 0.
+
+2019-12-06 23:09:24,919 - log/train.log - INFO - accuracy:  69.32%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-12-06 23:09:24,919 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  8176
+

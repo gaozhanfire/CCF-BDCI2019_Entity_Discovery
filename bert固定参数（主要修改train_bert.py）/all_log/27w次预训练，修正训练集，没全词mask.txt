@@ -1,0 +1,645 @@
+  name = %s, shape = %s%s bert/encoder/layer_2/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_2/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_2/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_2/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_3/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_4/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_5/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_6/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_7/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_8/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_9/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_10/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/query/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/query/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/key/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/key/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/value/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/self/value/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/output/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/attention/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/intermediate/dense/kernel:0 (768, 3072) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/intermediate/dense/bias:0 (3072,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/output/dense/kernel:0 (3072, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/output/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/output/LayerNorm/beta:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/encoder/layer_11/output/LayerNorm/gamma:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/pooler/dense/kernel:0 (768, 768) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s bert/pooler/dense/bias:0 (768,) , *INIT_FROM_CKPT*
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_xi:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_hi:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_ci:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_xo:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_ho:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_co:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_xc:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_w_hc:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_b_i:0 (200,) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_b_c:0 (200,) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/fw/coupled_input_forget_gate_lstm_cell/_b_o:0 (200,) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_xi:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_hi:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_ci:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_xo:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_ho:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_co:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_xc:0 (768, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_w_hc:0 (200, 200) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_b_i:0 (200,) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_b_c:0 (200,) 
+  name = %s, shape = %s%s char_BiLSTM/bidirectional_rnn/bw/coupled_input_forget_gate_lstm_cell/_b_o:0 (200,) 
+  name = %s, shape = %s%s project/hidden/W:0 (400, 200) 
+  name = %s, shape = %s%s project/hidden/b:0 (200,) 
+  name = %s, shape = %s%s project/logits/W:0 (200, 5) 
+  name = %s, shape = %s%s project/logits/b:0 (5,) 
+  name = %s, shape = %s%s crf_loss/transitions:0 (6, 6) 
+/home/ubuntu/anaconda3/envs/tf_bisai/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:110: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2019-10-12 13:18:59,192 - log/train.log - INFO - Created model with fresh parameters.
+2019-10-12 13:19:00,660 - log/train.log - INFO - start training
+0it [00:00, ?it/s]2019-10-12 13:19:02.189977: I tensorflow/stream_executor/dso_loader.cc:152] successfully opened CUDA library libcublas.so.9.0 locally
+78it [06:35,  5.12s/it]
+save result epoch: 0  ***************************************************
+2019-10-12 13:25:36,623 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:25:46,122 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 441 phrases; correct: 0.
+
+2019-10-12 13:25:46,122 - log/train.log - INFO - accuracy:  97.96%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:25:46,122 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  441
+
+21it [01:47,  5.09s/it]2019-10-12 13:27:38,576 - log/train.log - INFO - iteration:2 step:22/78, NER loss:32.310749
+78it [06:34,  5.07s/it]
+save result epoch: 1  ***************************************************
+2019-10-12 13:32:20,840 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:32:29,561 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 610 phrases; correct: 0.
+
+2019-10-12 13:32:29,562 - log/train.log - INFO - accuracy:  96.98%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:32:29,562 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  610
+
+43it [03:39,  5.09s/it]2019-10-12 13:36:14,122 - log/train.log - INFO - iteration:3 step:44/78, NER loss:12.612309
+78it [06:35,  4.90s/it]
+save result epoch: 2  ***************************************************
+2019-10-12 13:39:04,755 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:39:13,429 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 524 phrases; correct: 0.
+
+2019-10-12 13:39:13,430 - log/train.log - INFO - accuracy:  97.43%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:39:13,430 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  524
+
+65it [05:28,  5.09s/it]2019-10-12 13:44:47,060 - log/train.log - INFO - iteration:4 step:66/78, NER loss:10.794398
+78it [06:35,  5.13s/it]
+save result epoch: 3  ***************************************************
+2019-10-12 13:45:48,458 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:45:57,186 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 805 phrases; correct: 0.
+
+2019-10-12 13:45:57,186 - log/train.log - INFO - accuracy:  95.80%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:45:57,186 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  805
+
+78it [06:35,  5.11s/it]
+save result epoch: 4  ***************************************************
+2019-10-12 13:52:32,624 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:52:41,333 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 398 phrases; correct: 0.
+
+2019-10-12 13:52:41,333 - log/train.log - INFO - accuracy:  97.98%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:52:41,333 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  398
+
+9it [00:46,  5.11s/it]2019-10-12 13:53:32,531 - log/train.log - INFO - iteration:6 step:10/78, NER loss: 9.147484
+78it [06:35,  5.12s/it]
+save result epoch: 5  ***************************************************
+2019-10-12 13:59:17,238 - log/train.log - INFO - evaluate:dev
+2019-10-12 13:59:25,972 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 286 phrases; correct: 0.
+
+2019-10-12 13:59:25,972 - log/train.log - INFO - accuracy:  98.50%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 13:59:25,973 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  286
+
+31it [02:36,  5.13s/it]2019-10-12 14:02:07,220 - log/train.log - INFO - iteration:7 step:32/78, NER loss: 8.253966
+78it [06:47,  5.35s/it]
+save result epoch: 6  ***************************************************
+2019-10-12 14:06:13,110 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:06:22,371 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 459 phrases; correct: 0.
+
+2019-10-12 14:06:22,371 - log/train.log - INFO - accuracy:  97.75%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:06:22,371 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  459
+
+53it [04:39,  5.34s/it]2019-10-12 14:11:07,092 - log/train.log - INFO - iteration:8 step:54/78, NER loss: 7.065502
+78it [06:51,  5.20s/it]
+save result epoch: 7  ***************************************************
+2019-10-12 14:13:14,011 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:13:22,800 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 448 phrases; correct: 0.
+
+2019-10-12 14:13:22,800 - log/train.log - INFO - accuracy:  97.42%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:13:22,800 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  448
+
+75it [06:21,  5.09s/it]2019-10-12 14:19:49,537 - log/train.log - INFO - iteration:9 step:76/78, NER loss: 6.155546
+78it [06:37,  5.14s/it]
+save result epoch: 8  ***************************************************
+2019-10-12 14:19:59,921 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:20:08,760 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 536 phrases; correct: 0.
+
+2019-10-12 14:20:08,760 - log/train.log - INFO - accuracy:  96.91%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:20:08,760 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  536
+
+78it [06:36,  5.11s/it]
+save result epoch: 9  ***************************************************
+2019-10-12 14:26:44,865 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:26:53,637 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 369 phrases; correct: 0.
+
+2019-10-12 14:26:53,637 - log/train.log - INFO - accuracy:  97.78%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:26:53,637 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  369
+
+19it [01:37,  5.16s/it]2019-10-12 14:28:36,127 - log/train.log - INFO - iteration:11 step:20/78, NER loss: 5.543612
+78it [06:36,  5.14s/it]
+save result epoch: 10  ***************************************************
+2019-10-12 14:33:30,469 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:33:39,311 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 341 phrases; correct: 0.
+
+2019-10-12 14:33:39,311 - log/train.log - INFO - accuracy:  98.29%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:33:39,311 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  341
+
+41it [03:32,  5.17s/it]2019-10-12 14:37:16,574 - log/train.log - INFO - iteration:12 step:42/78, NER loss: 5.022344
+78it [06:40,  5.12s/it]
+save result epoch: 11  ***************************************************
+2019-10-12 14:40:19,588 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:40:28,458 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 185 phrases; correct: 0.
+
+2019-10-12 14:40:28,458 - log/train.log - INFO - accuracy:  98.92%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:40:28,458 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  185
+
+63it [05:26,  5.12s/it]2019-10-12 14:45:59,601 - log/train.log - INFO - iteration:13 step:64/78, NER loss: 4.557688
+78it [06:40,  4.22s/it]
+save result epoch: 12  ***************************************************
+2019-10-12 14:47:08,739 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:47:17,479 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 284 phrases; correct: 0.
+
+2019-10-12 14:47:17,480 - log/train.log - INFO - accuracy:  98.48%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:47:17,480 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  284
+
+78it [06:39,  5.11s/it]
+save result epoch: 13  ***************************************************
+2019-10-12 14:53:56,578 - log/train.log - INFO - evaluate:dev
+2019-10-12 14:54:05,350 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 188 phrases; correct: 0.
+
+2019-10-12 14:54:05,350 - log/train.log - INFO - accuracy:  98.95%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 14:54:05,351 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  188
+
+7it [00:35,  5.10s/it]2019-10-12 14:54:46,280 - log/train.log - INFO - iteration:15 step:8/78, NER loss: 4.250360
+78it [06:39,  5.17s/it]
+save result epoch: 14  ***************************************************
+2019-10-12 15:00:44,674 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:00:53,619 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 195 phrases; correct: 0.
+
+2019-10-12 15:00:53,619 - log/train.log - INFO - accuracy:  98.87%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:00:53,620 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  195
+
+29it [02:28,  5.13s/it]2019-10-12 15:03:27,496 - log/train.log - INFO - iteration:16 step:30/78, NER loss: 3.844748
+78it [06:37,  5.15s/it]
+save result epoch: 15  ***************************************************
+2019-10-12 15:07:31,431 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:07:40,166 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 192 phrases; correct: 0.
+
+2019-10-12 15:07:40,167 - log/train.log - INFO - accuracy:  98.92%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:07:40,167 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  192
+
+51it [04:18,  5.09s/it]2019-10-12 15:12:03,724 - log/train.log - INFO - iteration:17 step:52/78, NER loss: 3.421313
+78it [06:37,  5.19s/it]
+save result epoch: 16  ***************************************************
+2019-10-12 15:14:17,756 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:14:26,553 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 229 phrases; correct: 0.
+
+2019-10-12 15:14:26,553 - log/train.log - INFO - accuracy:  98.66%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:14:26,553 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  229
+
+73it [06:13,  5.23s/it]2019-10-12 15:20:45,229 - log/train.log - INFO - iteration:18 step:74/78, NER loss: 3.478259
+78it [06:39,  5.23s/it]
+save result epoch: 17  ***************************************************
+2019-10-12 15:21:06,167 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:21:14,970 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 213 phrases; correct: 0.
+
+2019-10-12 15:21:14,970 - log/train.log - INFO - accuracy:  98.82%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:21:14,971 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  213
+
+78it [06:40,  5.13s/it]
+save result epoch: 18  ***************************************************
+2019-10-12 15:27:55,116 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:28:03,907 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 194 phrases; correct: 0.
+
+2019-10-12 15:28:03,907 - log/train.log - INFO - accuracy:  98.88%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:28:03,907 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  194
+
+17it [01:27,  5.13s/it]2019-10-12 15:29:36,101 - log/train.log - INFO - iteration:20 step:18/78, NER loss: 3.029857
+78it [06:37,  5.12s/it]
+save result epoch: 19  ***************************************************
+2019-10-12 15:34:41,795 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:34:50,603 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 88 phrases; correct: 0.
+
+2019-10-12 15:34:50,603 - log/train.log - INFO - accuracy:  99.56%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:34:50,603 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  88
+
+39it [03:20,  5.12s/it]2019-10-12 15:38:15,911 - log/train.log - INFO - iteration:21 step:40/78, NER loss: 2.875139
+78it [06:37,  5.01s/it]
+save result epoch: 20  ***************************************************
+2019-10-12 15:41:28,402 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:41:37,306 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 192 phrases; correct: 0.
+
+2019-10-12 15:41:37,307 - log/train.log - INFO - accuracy:  98.99%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:41:37,307 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  192
+
+61it [05:12,  4.89s/it]2019-10-12 15:46:54,782 - log/train.log - INFO - iteration:22 step:62/78, NER loss: 2.676232
+78it [06:40,  5.18s/it]
+save result epoch: 21  ***************************************************
+2019-10-12 15:48:17,857 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:48:26,813 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 177 phrases; correct: 0.
+
+2019-10-12 15:48:26,813 - log/train.log - INFO - accuracy:  99.08%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:48:26,813 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  177
+
+78it [06:39,  5.16s/it]
+save result epoch: 22  ***************************************************
+2019-10-12 15:55:06,504 - log/train.log - INFO - evaluate:dev
+2019-10-12 15:55:15,345 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 321 phrases; correct: 0.
+
+2019-10-12 15:55:15,345 - log/train.log - INFO - accuracy:  98.10%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 15:55:15,345 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  321
+
+5it [00:25,  5.12s/it]2019-10-12 15:55:46,145 - log/train.log - INFO - iteration:24 step:6/78, NER loss: 2.669910
+78it [06:37,  5.09s/it]
+save result epoch: 23  ***************************************************
+2019-10-12 16:01:53,163 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:02:01,968 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 275 phrases; correct: 0.
+
+2019-10-12 16:02:01,969 - log/train.log - INFO - accuracy:  98.62%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:02:01,969 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  275
+
+27it [02:17,  4.98s/it]2019-10-12 16:04:24,553 - log/train.log - INFO - iteration:25 step:28/78, NER loss: 2.489200
+78it [06:41,  5.13s/it]
+save result epoch: 24  ***************************************************
+2019-10-12 16:08:43,387 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:08:52,120 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 127 phrases; correct: 0.
+
+2019-10-12 16:08:52,121 - log/train.log - INFO - accuracy:  99.29%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:08:52,121 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  127
+
+49it [04:13,  5.13s/it]2019-10-12 16:13:10,362 - log/train.log - INFO - iteration:26 step:50/78, NER loss: 2.398382
+78it [06:40,  5.16s/it]
+save result epoch: 25  ***************************************************
+2019-10-12 16:15:32,240 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:15:41,008 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 211 phrases; correct: 0.
+
+2019-10-12 16:15:41,008 - log/train.log - INFO - accuracy:  98.73%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:15:41,008 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  211
+
+71it [06:05,  5.13s/it]2019-10-12 16:21:51,229 - log/train.log - INFO - iteration:27 step:72/78, NER loss: 2.348596
+78it [06:41,  5.15s/it]
+save result epoch: 26  ***************************************************
+2019-10-12 16:22:22,104 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:22:30,942 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 153 phrases; correct: 0.
+
+2019-10-12 16:22:30,942 - log/train.log - INFO - accuracy:  99.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:22:30,942 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  153
+
+78it [06:39,  5.23s/it]
+save result epoch: 27  ***************************************************
+2019-10-12 16:29:10,280 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:29:19,115 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 182 phrases; correct: 0.
+
+2019-10-12 16:29:19,115 - log/train.log - INFO - accuracy:  99.01%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:29:19,115 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  182
+
+15it [01:17,  5.19s/it]2019-10-12 16:30:41,890 - log/train.log - INFO - iteration:29 step:16/78, NER loss: 2.262021
+78it [06:40,  5.15s/it]
+save result epoch: 28  ***************************************************
+2019-10-12 16:35:59,549 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:36:08,398 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 179 phrases; correct: 0.
+
+2019-10-12 16:36:08,398 - log/train.log - INFO - accuracy:  98.92%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:36:08,398 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  179
+
+37it [03:11,  5.15s/it]2019-10-12 16:39:24,713 - log/train.log - INFO - iteration:30 step:38/78, NER loss: 2.078493
+78it [06:38,  5.14s/it]
+save result epoch: 29  ***************************************************
+2019-10-12 16:42:47,035 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:42:55,771 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 118 phrases; correct: 0.
+
+2019-10-12 16:42:55,772 - log/train.log - INFO - accuracy:  99.33%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:42:55,772 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  118
+
+59it [05:03,  5.13s/it]2019-10-12 16:48:04,576 - log/train.log - INFO - iteration:31 step:60/78, NER loss: 2.089519
+78it [06:38,  5.10s/it]
+save result epoch: 30  ***************************************************
+2019-10-12 16:49:34,453 - log/train.log - INFO - evaluate:dev
+2019-10-12 16:49:43,128 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 126 phrases; correct: 0.
+
+2019-10-12 16:49:43,128 - log/train.log - INFO - accuracy:  99.28%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:49:43,128 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  126
+
+2019-10-12 16:49:43,130 - log/train.log - INFO - evaluate:test
+2019-10-12 16:59:27,853 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 46395 phrases; correct: 0.
+
+2019-10-12 16:59:27,853 - log/train.log - INFO - accuracy:  95.95%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 16:59:27,853 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  46395
+
+78it [06:29,  5.08s/it]
+save result epoch: 31  ***************************************************
+2019-10-12 17:05:57,204 - log/train.log - INFO - evaluate:dev
+2019-10-12 17:06:05,879 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 229 phrases; correct: 0.
+
+2019-10-12 17:06:05,879 - log/train.log - INFO - accuracy:  98.67%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:06:05,879 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  229
+
+2019-10-12 17:06:05,881 - log/train.log - INFO - evaluate:test
+2019-10-12 17:15:41,903 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 55757 phrases; correct: 0.
+
+2019-10-12 17:15:41,903 - log/train.log - INFO - accuracy:  95.15%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:15:41,903 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55757
+
+3it [00:15,  5.07s/it]2019-10-12 17:16:02,460 - log/train.log - INFO - iteration:33 step:4/78, NER loss: 2.070044
+78it [06:44,  5.29s/it]
+save result epoch: 32  ***************************************************
+2019-10-12 17:22:26,878 - log/train.log - INFO - evaluate:dev
+2019-10-12 17:22:35,637 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 148 phrases; correct: 0.
+
+2019-10-12 17:22:35,638 - log/train.log - INFO - accuracy:  99.15%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:22:35,638 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  148
+
+2019-10-12 17:22:35,640 - log/train.log - INFO - evaluate:test
+2019-10-12 17:32:07,226 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 47623 phrases; correct: 0.
+
+2019-10-12 17:32:07,226 - log/train.log - INFO - accuracy:  95.77%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:32:07,227 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  47623
+
+25it [02:02,  5.02s/it]2019-10-12 17:34:14,537 - log/train.log - INFO - iteration:34 step:26/78, NER loss: 1.863933
+78it [06:28,  5.02s/it]
+save result epoch: 33  ***************************************************
+2019-10-12 17:38:36,093 - log/train.log - INFO - evaluate:dev
+2019-10-12 17:38:44,728 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 177 phrases; correct: 0.
+
+2019-10-12 17:38:44,728 - log/train.log - INFO - accuracy:  99.04%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:38:44,728 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  177
+
+2019-10-12 17:38:44,730 - log/train.log - INFO - evaluate:test
+2019-10-12 17:48:15,948 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 49684 phrases; correct: 0.
+
+2019-10-12 17:48:15,948 - log/train.log - INFO - accuracy:  95.74%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:48:15,949 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49684
+
+47it [03:51,  4.35s/it]2019-10-12 17:52:13,247 - log/train.log - INFO - iteration:35 step:48/78, NER loss: 1.737886
+78it [06:28,  5.08s/it]
+save result epoch: 34  ***************************************************
+2019-10-12 17:54:44,680 - log/train.log - INFO - evaluate:dev
+2019-10-12 17:54:54,808 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 140 phrases; correct: 0.
+
+2019-10-12 17:54:54,809 - log/train.log - INFO - accuracy:  99.17%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 17:54:54,809 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  140
+
+2019-10-12 17:54:54,812 - log/train.log - INFO - evaluate:test
+2019-10-12 18:04:25,327 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 49106 phrases; correct: 0.
+
+2019-10-12 18:04:25,327 - log/train.log - INFO - accuracy:  95.77%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:04:25,327 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49106
+
+69it [05:43,  5.02s/it]2019-10-12 18:10:13,642 - log/train.log - INFO - iteration:36 step:70/78, NER loss: 1.880476
+78it [06:28,  5.03s/it]
+save result epoch: 35  ***************************************************
+2019-10-12 18:10:53,728 - log/train.log - INFO - evaluate:dev
+2019-10-12 18:11:02,393 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 193 phrases; correct: 0.
+
+2019-10-12 18:11:02,393 - log/train.log - INFO - accuracy:  98.84%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:11:02,394 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  193
+
+2019-10-12 18:11:02,396 - log/train.log - INFO - evaluate:test
+2019-10-12 18:20:34,699 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 53622 phrases; correct: 0.
+
+2019-10-12 18:20:34,700 - log/train.log - INFO - accuracy:  95.23%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:20:34,700 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  53622
+
+78it [06:27,  5.00s/it]
+save result epoch: 36  ***************************************************
+2019-10-12 18:27:02,657 - log/train.log - INFO - evaluate:dev
+2019-10-12 18:27:11,354 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 208 phrases; correct: 0.
+
+2019-10-12 18:27:11,354 - log/train.log - INFO - accuracy:  98.78%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:27:11,354 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  208
+
+2019-10-12 18:27:11,356 - log/train.log - INFO - evaluate:test
+2019-10-12 18:36:42,217 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 55923 phrases; correct: 0.
+
+2019-10-12 18:36:42,217 - log/train.log - INFO - accuracy:  95.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:36:42,217 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  55923
+
+13it [01:05,  5.03s/it]2019-10-12 18:37:52,489 - log/train.log - INFO - iteration:38 step:14/78, NER loss: 1.756924
+78it [06:27,  5.04s/it]
+save result epoch: 37  ***************************************************
+2019-10-12 18:43:09,779 - log/train.log - INFO - evaluate:dev
+2019-10-12 18:43:18,485 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 160 phrases; correct: 0.
+
+2019-10-12 18:43:18,485 - log/train.log - INFO - accuracy:  99.13%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:43:18,485 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  160
+
+2019-10-12 18:43:18,487 - log/train.log - INFO - evaluate:test
+2019-10-12 18:52:48,224 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 50169 phrases; correct: 0.
+
+2019-10-12 18:52:48,224 - log/train.log - INFO - accuracy:  95.75%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:52:48,225 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  50169
+
+35it [02:51,  5.01s/it]2019-10-12 18:55:45,114 - log/train.log - INFO - iteration:39 step:36/78, NER loss: 1.643047
+78it [06:27,  5.01s/it]
+save result epoch: 38  ***************************************************
+2019-10-12 18:59:15,466 - log/train.log - INFO - evaluate:dev
+2019-10-12 18:59:24,110 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 169 phrases; correct: 0.
+
+2019-10-12 18:59:24,110 - log/train.log - INFO - accuracy:  98.96%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 18:59:24,110 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  169
+
+2019-10-12 18:59:24,112 - log/train.log - INFO - evaluate:test
+2019-10-12 19:08:54,443 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 50024 phrases; correct: 0.
+
+2019-10-12 19:08:54,443 - log/train.log - INFO - accuracy:  95.56%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 19:08:54,443 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  50024
+
+57it [04:42,  5.00s/it]2019-10-12 19:13:42,482 - log/train.log - INFO - iteration:40 step:58/78, NER loss: 1.646208
+78it [06:28,  5.03s/it]
+save result epoch: 39  ***************************************************
+2019-10-12 19:15:22,937 - log/train.log - INFO - evaluate:dev
+2019-10-12 19:15:31,533 - log/train.log - INFO - processed 74624 tokens with 0 phrases; found: 155 phrases; correct: 0.
+
+2019-10-12 19:15:31,533 - log/train.log - INFO - accuracy:  99.19%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 19:15:31,533 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  155
+
+2019-10-12 19:15:31,535 - log/train.log - INFO - evaluate:test
+2019-10-12 19:25:02,872 - log/train.log - INFO - processed 5105191 tokens with 0 phrases; found: 49353 phrases; correct: 0.
+
+2019-10-12 19:25:02,872 - log/train.log - INFO - accuracy:  95.85%; precision:   0.00%; recall:   0.00%; FB1:   0.00
+
+2019-10-12 19:25:02,872 - log/train.log - INFO -                  : precision:   0.00%; recall:   0.00%; FB1:   0.00  49353
+
+(tf_bisai) ubuntu@ubuntu-Super-Server:~/zzp/bertNER/SRC$ python train_bert.py
+
